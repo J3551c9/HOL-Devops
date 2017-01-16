@@ -17,7 +17,7 @@ You must have the Azure account mentioned in Lab 01.
    ![](./images/2.2.i001.PNG)
 
 2. Click Create to begin the creation of the VM. 
-![](./images/2.2.i002.png)
+![](./images/2.2.i002.PNG)
 
 3. Fill in the basic machine settings:
 
@@ -97,15 +97,15 @@ You must have the Azure account mentioned in Lab 01.
     ``` 
 
 9. You will now see the Administrator password required to unlock Jenkins: 
-      ![](./images/2.4.i004.png)
+      ![](./images/2.4.i004.PNG)
 
 10. Provide the Administrator password and continue to the next step.
-  ![](./images/2.4.i005.png)
+  ![](./images/2.4.i005.PNG)
 
 11. Select "Install suggested plugins" and wait for the installation to complete.
      
 12. Create a new admin user in Jenkins by filling out the following fields and clicking "Save and Finish"
-   ![](./images/2.4.i006.png)
+   ![](./images/2.4.i006.PNG)
 
 13. Once you have created a new user, Jenkins is ready! Click "Start using Jenkins" to proceed.
  
@@ -127,15 +127,15 @@ You must have the Azure account mentioned in Lab 01.
  ```
 
     
-![](./images/2.6.i001.png)
+![](./images/2.6.i001.PNG)
 
-![](./images/2.6.i002.png)
+![](./images/2.6.i002.PNG)
 
-![](./images/2.6.i003.png)
+![](./images/2.6.i003.PNG)
 
-![](./images/2.6.i004.png)
+![](./images/2.6.i004.PNG)
 
-![](./images/2.6.i005.png)
+![](./images/2.6.i005.PNG)
 
 ![](./images/2.6.i006.png)
     
@@ -146,7 +146,7 @@ You must have the Azure account mentioned in Lab 01.
 1. To create our build we will need install the maven plugins. Browse to Manage Jenkins-> Manage Plugins
    
 2. Select the "Available" tab to view all available plugins and mark the "SSH plugin" for download. Click "Install without restart" to install the plugin.
-     ![](./images/2.5.i001.png)
+     ![](./images/2.5.i001.PNG)
 
 
 ### 2.5.2 Maven Configuration
@@ -159,5 +159,5 @@ You must have the Azure account mentioned in Lab 01.
     **Select Install automatically"
     **Install from Apache**
 
- ![](./images/2.5.i002.png)
+ ![](./images/2.5.i002.PNG)
 

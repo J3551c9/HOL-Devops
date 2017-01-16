@@ -24,6 +24,3 @@ In this HOL, you will use 1 Virtual Machines with the next features.
 5. Deploy the war file in the Tomcat container
 7. The Java Web Application is deployed in Tomcat and accesssible through a Web browser
 
-# Final scenario
-
-As a result of the workflow described in the previous section you will get the workflow depicted below.

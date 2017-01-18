@@ -1,5 +1,15 @@
-# 3 Creating the Jenkins workflow
-## 3.1 Creating the Build 
+# 3 Setting up an automated Build and Deploy in Jenkins server in Azure
+
+## 3.1 Overview
+In this lab, we will setting up a build and deploy project in Jenkins.
+
+### 3.1.1 Objectives
+This lab aims to get you familiar with Jenkins on Azure Cloud.
+
+### 3.1.2 Requirements
+You must have completed Lab 01.
+
+## 3.2 Creating a Build project
 1. Go to the Jenkins Dashboard and click on "New Item".
 
 2. Create a "Freestyle project" with the name "build" and click "OK" to continue.
@@ -43,7 +53,7 @@
 7. Click on "Save".
 
 
-## 3.2 Creating the Deployment
+## 3.3 Creating a Deployment project
 1. Go to the Jenkins Dashboard and click on "New Item".
 
 2. Create a "Freestyle project" with the name "Deploy" and click "OK" to continue.
@@ -76,7 +86,7 @@
 
 6. Click on "Save".
 
-## Running the Project
+## 3.4 Running the Project
 
 1. Run the build project to start the flow
 2. Once the build and deploy finish browse to http://yourazurevmip:8888/OSSDevOpsHOL

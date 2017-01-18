@@ -7,7 +7,7 @@ In this lab, we will setting up Jenkins to use it in our HOL-Devops project.
 This lab aims to get you familiar with Jenkins on Azure Cloud.
 
 ### 2.1.2 Requirements
-You must have the Azure account mentioned in Lab 01.
+You must have the Azure account mentioned in the README file.
 
 ## 2.2 Creating a VM in Azure running Jenkins
 
@@ -44,7 +44,7 @@ You must have the Azure account mentioned in Lab 01.
 7. The machine will now be deployed for you: 
     ![](./images/2.2.i007.PNG)
 
-## 2.3 Configure Network Interface
+## 2.3 Configuring VM's Network Interface
 
 1. Go to the machine that you just create in the previous section, in the left menu, select "Network interfaces"
     ![](./images/2.3.i001.PNG)
@@ -117,7 +117,7 @@ You must have the Azure account mentioned in Lab 01.
 
 13. Once you have created a new user, Jenkins is ready! Click "Continue as your-user" to proceed.
  
-## 2.5 Configure communication between Jenkins and Docker
+## 2.5 Setting up communication between Jenkins and Docker
 
 1. In order to configure the communication we will run the next commands in the console:
 
@@ -144,9 +144,9 @@ You must have the Azure account mentioned in Lab 01.
 
     ![](./images/2.6.i005.PNG)
     
-## 2.6 Configuring a Maven build in Jenkins
+## 2.6 Setting up Jenkins
 
-### 2.6.1 Install maven plugins
+### 2.6.1 Install plugins
    
 1. To create our build and deploy we will need install the SHH and Copy Artifact plugins. 
 

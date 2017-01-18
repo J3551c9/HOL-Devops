@@ -13,8 +13,8 @@ You must have the Azure account mentioned in Lab 01.
 
 1. Browse to the Azure Portal: https://portal.azure.com/
 
-   For this lab we will use Jenkis template published by Docker. This will setup an Ubuntu VM with the Docker engine installed and a Jenkins container running on it. 
-  
+   For this lab we will use Jenkis template published by Docker. This will setup an Ubuntu VM with the Docker engine installed and a Jenkins container running on it.
+     
 2. Click Create to begin the creation of the VM. 
     ![](./images/2.2.i002.PNG)
 
@@ -34,10 +34,11 @@ You must have the Azure account mentioned in Lab 01.
 4. Select the "A1 Standard" virtual machine size. If you are unable to see this machine size, make sure you are viewing "All" machine sizes and not only those that are "Recommended" (you can toggle this view in the upper right corner of the machine size viewer).
     ![](./images/2.2.i004.PNG) 
 
-5. In the third step you can select optional extensions to be installed, but we will simply leave this as-is and select OK to move to the next step.
+5. In the third step you can select optional extensions to be installed, but we will simply leave this as-is and select OK to move to the next step.  
+
    ![](./images/2.2.i005.PNG)
 
-6. Validate the configuration settings you've selected and click OK. 
+6. Validate the configuration settings you've seected and click OK. 
     ![](./images/2.2.i006.PNG)
 
 7. The machine will now be deployed for you: 

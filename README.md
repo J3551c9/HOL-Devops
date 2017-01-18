@@ -1,7 +1,6 @@
 # HOL-Devops
 
-This set of hands on labs is created to give you an introduction to open source DevOps using the open source cloud services in Azure. I appreciate your feedback and support in continuing to develop this content.
-This lab showcases the following technologies: Microsoft Azure, Jenkins, Java, Maven, Jenkins, Linux, Docker, TomCat. 
+In this labs you will implement an example of continuous build and deployment of containerized Java Web applications using Linux, Maven, Tomcat, Jenkins, Docker and Eclipse on Azure; this is a classic DevOps scenario and here you will learn how to build a DevOps lifecycle from scratch.
 
 ## Before you begin this lab
 

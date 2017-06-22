@@ -12,8 +12,8 @@ In this HOL, you will use 1 Virtual Machine with the next features.
 
 Jenkins Continuous Integration and Delivery server on Azure. This Deployment results in the following offerings being installed:  
 * Ubuntu 16.04.0-LTS (amd64 20160627) Virtual Machine by Canonical, Inc  
-* Docker Engine VM Extension by Microsoft Corporation  
-* The Jenkins container as published by Docker, Inc. in the Docker Hub official repository  
+* Docker Engine 
+* Jenkins Engine
 
 
 ## Workflow 

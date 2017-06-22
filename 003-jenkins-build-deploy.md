@@ -23,7 +23,7 @@ You must have completed Lab 01.
     
 4. Click on the "Build" tab of the configuration. In the "Add build step" dropdown, select "Invoke top-level Maven targets".
     
-   ![](./images/3.1.i004.PNG)
+   ![](./images/3.1.iu004.PNG)
 
    Click on the arrow next to the "Goals" textbox to expand the textbox to multiple lines. 
   
@@ -35,13 +35,14 @@ You must have completed Lab 01.
    Add the following "POM" file path to the configuration:
     ```
     sample-app/pom.xml //configure with your path
-    ``` 
+    ```
+
 5. Click on the "Build" tab of the configuration. In the "Add build step" dropdown, select "Exetute shell".
   
    In the Command section and add 
    
     ```
-    ssh your-user@your-privateIP 'docker run -it --name your_container_name -d -p 8888:8080 tomcat:8.0' 
+    docker run -it --name your_container_name -d -p 8888:8080 tomcat:8.0
     ``` 
        
 6. Click on the "Post-build Actions" tab and add a post-build action of type "Archive the artifact" where you archive the files matching the following pattern:
@@ -78,11 +79,10 @@ You must have completed Lab 01.
    In the Command section and add 
    
     ```
-        ssh your-user@your-privateIP 'docker cp  small_bassi:/var/jenkins_home/workspace/otro/sample-app/target/OSSDevOpsHOL.war .'
-        ssh your-user@your-privateIP 'docker cp  /home/jessica/OSSDevOpsHOL.war demo1:/usr/local/tomcat/webapps/OSSDevOpsHOL.war'
+       docker cp  /var/lib/jenkins/workspace/build/sample-app/target/OSSDevOpsHOL.war your_container_name:/usr/local/tomcat/webapps/OSSDevOpsHOL.war'
 
     ``` 
-    ![](./images/3.2.i004.PNG)
+    ![](./images/3.2.iu004.PNG)
 
 6. Click on "Save".
 
